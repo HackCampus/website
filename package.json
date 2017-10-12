@@ -1,0 +1,14 @@
+{
+  "name": "hackcampus-2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "harry lachenmayer <harrylachenmayer@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
