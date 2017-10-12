@@ -4,11 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
   },
   "author": "harry lachenmayer <harrylachenmayer@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "live-server": "^1.2.0"
+  "dependencies": {},
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^7.1.5",
+    "babel-brunch": "^6.1.1",
+    "babel-preset-env": "^1.6.0",
+    "brunch": "^2.10.11",
+    "clean-css-brunch": "^2.10.0",
+    "cssnano": "^3.10.0",
+    "postcss-brunch": "^2.1.0",
+    "uglify-js-brunch": "^2.10.0"
   }
 }
