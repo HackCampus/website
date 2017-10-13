@@ -64,6 +64,6 @@ It is always up to the companies to decide which interns they want to give offer
 
 Yes! Your weekly salary will be £{{facts.internSalary}}, on top of your free accommodation.
 
-### Where do I sign up?
+### I have a disability. What assistance can you offer me?
 
-[Apply here]({{facts.applicationUrl}}).
+HackCampus is a disability inclusive programme. As part of our commitment to disability and diversity, we partner with [EmployAbility](https://www.employ-ability.org.uk/), the not-for-profit organisation that supports disabled students and graduates in their transition from education to employment. We would like to provide all candidates applying to HackCampus with the opportunity to perform to the best of their ability. If you have a disability, long term health condition, mental health condition, are on the Autistic Spectrum, or have any specific learning disability (including Dyslexia, Dyspraxia, ADD or other), and require any disability related adjustments for any part of the recruitment process, please contact our disability partner EmployAbility on Tel: +44 7710 070063 or by email at tab.ahmad@employ-ability.org.uk.
