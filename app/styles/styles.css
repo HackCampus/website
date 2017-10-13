@@ -105,6 +105,35 @@ pre {
   margin-top: 1em;
 }
 
+.hero-video-container {
+  z-index: 10000;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 500ms;
+  display: flex;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-video {
+  margin: auto;
+  width: 720px;
+  height: 405px;
+  background: black;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 767px) {
+  .hero-video {
+    width: 90%;
+    height: 270px;
+  }
+}
+
 @keyframes bounce {
   0% {
     margin-bottom: 0;
@@ -135,11 +164,11 @@ pre {
   }
 }
 
-.hero .scroll-arrow {
+.scroll-arrow {
   visibility: hidden; /* shown with js, so that people without js don't need to endure it */
 }
 
-.hero .scroll-arrow.show {
+.scroll-arrow.show {
   visibility: visible;
   opacity: 0.5;
   animation: 3s ease-out infinite forwards bounce;
@@ -153,7 +182,7 @@ pre {
   background-size: contain;
 }
 
-.hero .scroll-arrow.fade-out {
+.scroll-arrow.fade-out {
   animation: 200ms fade-out ease-out forwards;
 }
 

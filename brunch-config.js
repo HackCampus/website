@@ -5,6 +5,7 @@ module.exports = {
     javascripts: {
       joinTo: {
         'app.js': /^app/,
+        'vendor.js': /^(?!app)/, // Dependencies
       },
     },
     stylesheets: {joinTo: 'styles.css'},

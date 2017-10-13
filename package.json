@@ -9,7 +9,9 @@
   },
   "author": "harry lachenmayer <harrylachenmayer@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "youtube-player": "^5.4.0"
+  },
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
     "autoprefixer": "^7.1.5",
