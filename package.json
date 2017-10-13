@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "brunch watch --server & live-server public/ & wait",
+    "start": "brunch watch & live-server public/ & wait",
     "build": "brunch build --production"
   },
   "author": "harry lachenmayer <harrylachenmayer@gmail.com>",
@@ -16,9 +16,12 @@
     "babel-brunch": "^6.1.1",
     "babel-preset-env": "^1.6.0",
     "brunch": "^2.10.11",
+    "brunch-static": "^1.2.1",
     "clean-css-brunch": "^2.10.0",
     "cssnano": "^3.10.0",
+    "html-brunch-static": "^1.3.3",
     "live-server": "^1.2.0",
+    "marked-brunch-static": "^1.1.0",
     "postcss-brunch": "^2.1.0",
     "uglify-js-brunch": "^2.10.0"
   }
