@@ -105,8 +105,56 @@ pre {
   margin-top: 1em;
 }
 
-.hero-video-content {
-  margin: auto;
+@keyframes bounce {
+  0% {
+    margin-bottom: 0;
+  }
+  80% {
+    margin-bottom: 0;
+  }
+  87% {
+    margin-bottom: 8px;
+  }
+  90% {
+    margin-bottom: 0;
+  }
+  97% {
+    margin-bottom: 8px;
+  }
+  100% {
+    margin-bottom: 0;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hero .scroll-arrow {
+  visibility: hidden; /* shown with js, so that people without js don't need to endure it */
+}
+
+.hero .scroll-arrow.show {
+  visibility: visible;
+  opacity: 0.5;
+  animation: 3s ease-out infinite forwards bounce;
+  position: fixed;
+  bottom: 16px;
+  left: calc(50% - 5px);
+  width: 10px;
+  height: 14px;
+  background-image: url(/images/arrow-down.png);
+  background-repeat: none;
+  background-size: contain;
+}
+
+.hero .scroll-arrow.fade-out {
+  animation: 200ms fade-out ease-out forwards;
 }
 
 .section {
