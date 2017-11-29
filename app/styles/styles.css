@@ -282,6 +282,49 @@ button.btn {
   margin-bottom: 0.5rem;
 }
 
-.faq {
+.static-text {
   padding: 8rem 10px;
+}
+
+.static-text h1 {
+  font-weight: normal;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.static-text h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.static-text h2::before {
+  color: #aaa;
+  font-weight: normal;
+  content: '# ';
+}
+
+.static-text h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.static-text h3::before {
+  color: #aaa;
+  font-weight: normal;
+  content: '## ';
+}
+
+.static-text h1 {
+  font-size: 1.5em;
+}
+.static-text h2 {
+  font-size: 1.3em;
+}
+.static-text h3 {
+  font-size: 1.2em;
+}
+.static-text pre, .static-text code {
+  font-family: 'Roboto Mono', monospace;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
