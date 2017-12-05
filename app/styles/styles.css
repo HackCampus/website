@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
   h1 {
     font-size: 1.5rem;
   }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 a {
@@ -94,7 +98,7 @@ button.btn {
 
 .hero {
   text-align: center;
-  min-height: 100vh;
+  min-height: 700px;
   display: flex;
   background: #ff9600;
 }
@@ -202,9 +206,13 @@ button.btn {
   color: white;
 }
 
-/*.dark a {
+.dark a {
   color: white;
-}*/
+}
+
+.dark .btn-light {
+  color: black;
+}
 
 .orange {
   background: #ff9600;
@@ -213,6 +221,23 @@ button.btn {
 .orange a {
   color: black;
   border-bottom: 1px solid white;
+}
+
+.programme-company {
+  margin: 1em 0;
+}
+
+.programme-company-description {
+  margin: 1em 0;
+}
+
+.programme-company-technologies {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.programme-company.your-company-here {
+  opacity: 0.9;
 }
 
 .testimonial {

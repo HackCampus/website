@@ -3,6 +3,44 @@ title: HackCampus
 containerClasses: main
 _options:
   layout: app/layouts/main.static.hbs
+  partials:
+    - app/partials/company.static.hbs
+companies:
+    - name: 9fin
+      website: https://9fin.com/
+      description: 9fin’s technology helps search, filter and analyse the world’s fixed income financial data, allowing professionals to make better investment decisions.
+      technologies: React, ES6, Python, Go, PostgreSQL, TensorFlow, Redis
+
+    - name: Beamery
+      website: https://beamery.com/
+      description: Candidate Relationship software for companies that are proactive about engaging the best talent, and don’t just rely on applications.
+      technologies: Angular, React, Node.js, Kubernetes, ElasticSearch, Redis, Kafka, Go
+
+    - name: Credit Benchmark
+      website: https://www.creditbenchmark.com/
+      description: Credit Benchmark is an innovative provider of credit risk data and analytics which pools credit risk estimates from the world’s biggest banks and financial institutions to create consensus credit views.
+      technologies: "Developer role: C#, SQL Server, JavaScript, AWS\nInfrastructure role: Windows Server, AWS, Azure, VMWare"
+
+    - name: Deliveroo
+      website: https://deliveroo.co.uk/
+      description: Deliveroo delivers top quality food from premium local restaurants to homes and offices.
+      technologies: Ruby on Rails, JavaScript, Angular, React
+
+    - name: Duco
+      website: https://du.co/
+      description: Duco uses computer science to solve the worlds reconciliation problems through its award winning software Duco Cube.
+      technologies: JavaScript, Ruby on Rails, Java
+
+    - name: MyOptique
+      website: http://myoptiquegroup.com/
+      description: MyOptique blends authoritative eyewear knowledge, premium design and leading-edge optical technology to curate the finest eyewear ranges from a host of top brands, providing online ecommerce retail websites for prescription glasses, sunglasses and contact lenses.
+      technologies: Python, Django, JavaScript, Angular, React, AWS, .NET, C#
+
+    - name: Secret Escapes
+      website: https://www.secretescapes.com/
+      description: The worst-kept secret in luxury travel, Secret Escapes is a free-to-join members-only flash sales site which offers handpicked exclusive deals on the finest four and five-star hotels and holidays worldwide.
+      technologies: Groovy / Grails, Java, Angular, React
+
 ---
 <div class="hero orange container-fluid">
   <div class="hero-content col-md-10">
@@ -10,13 +48,32 @@ _options:
     <p class="lead">Applications for the HackCampus internship programme 2018 are now open.</p>
     <a href="https://apply.hackcampus.io/" role="button" class="btn btn-light btn-lg">Apply now</a>
     <button id="watch-video" type="button" class="btn btn-outline-light btn-lg"><span class="oi oi-play-circle" style="top: 2px;"></span> Watch the video</button>
-    <p>Do you work at a company that could benefit from software engineering interns? <a href="/static/internship-programme-2018.pdf">Learn more</a></p>
   </div>
   <div class="hero-video-container">
     <div id="hero-video" class="hero-video">
     </div>
   </div>
   <div class="scroll-arrow"></div>
+</div>
+<div class="section internship-2018 dark">
+  <div class="container">
+    <h2>Are you looking for an internship with free accommodation this summer?</h2>
+    <p>These companies are all looking to take on interns as part of the HackCampus 2018 programme.</p>
+    <div class="programme-companies row">
+      {{#each companies as |company|}}
+        <div class="programme-company col-md-4">
+          <h4 class="programme-company-name"><a href="{{company.website}}" target="_blank">{{company.name}}</a></h4>
+          <div class="programme-company-description">{{company.description}}</div>
+          <pre class="programme-company-technologies">{{company.technologies}}</pre>
+          <a href="https://apply.hackcampus.io/?cp={{company.name}}" role="button" class="btn btn-outline-light">Apply to {{company.name}}</a>
+        </div>
+      {{/each}}
+      <div class="programme-company your-company-here col-lg-4">
+        <h4 class="programme-company-name">Your company here?</h4>
+        <div class="programme-company-description">We are always looking for companies based in London to join the HackCampus internship programme - there's still time to apply for the summer 2018 programme! <strong><a href="/static/internship-programme-2018.pdf">Learn more.</a></strong></div>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="section about">
   <div class="container">
