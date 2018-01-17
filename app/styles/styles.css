@@ -9,7 +9,12 @@ nav {
   background: #ff9600;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Roboto Mono', monospace;
   font-weight: normal;
 }
@@ -48,7 +53,6 @@ pre {
     font-size: 1rem;
   }
 }
-
 
 ::selection {
   color: white;
@@ -105,7 +109,7 @@ button.btn {
 
 .hero-content {
   padding: 4rem 0;
-  margin: auto
+  margin: auto;
 }
 
 .hero-content p {
@@ -274,8 +278,8 @@ button.btn {
   margin-top: 1rem;
   max-width: 110px;
   image-rendering: -moz-crisp-edges;
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: optimize-contrast;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
 }
 
 .employability-logo img {
@@ -309,6 +313,11 @@ button.btn {
 
 .static-text {
   padding: 8rem 10px;
+  max-width: 800px;
+}
+
+.static-text a {
+  font-weight: bold;
 }
 
 .static-text h1 {
@@ -348,8 +357,16 @@ button.btn {
 .static-text h3 {
   font-size: 1.2em;
 }
-.static-text pre, .static-text code {
+
+.static-text pre,
+.static-text code {
   font-family: 'Roboto Mono', monospace;
   word-wrap: break-word;
   white-space: pre-wrap;
+}
+
+.static-text blockquote {
+  border-left: 2px solid #ff9600;
+  padding-left: 12px;
+  font-style: italic;
 }
