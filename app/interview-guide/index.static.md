@@ -24,8 +24,8 @@ We have compiled a couple of tips and resources that should help you do the best
   Do not be afraid to repeat information, even if it can easily be found on your CV - if anything, it is a really good signal that you are able to talk about the things you have listed on your CV.
 
 - **Research the company you are interviewing for.**
-  You will often be asked why you chose to apply for them. A lot of candidates give very generic answers to questions about the company they are applying to, which could almost be applied to any company. But companies want to know whether you have done enough research to really understand what makes them different from others, what is unique to them or their problem domain, why have you chosen them over other companies.
-  They want to be flattered (!), so think of specifics about that firm that has attracted you to them.
+  You will often be asked why you chose to apply to them. A lot of candidates give very generic answers to questions about the company they are applying to, which could almost be applied to any company. But companies want to know whether you have done enough research to really understand what makes them different from others, what is unique to them or their problem domain, why have you chosen them over other companies.
+  They want to be flattered (!), so think of specifics about that company that has attracted you to them.
   Also, what makes them different (and similar) to their competitors? What gives them their competitive edge? What more could they do to enhance this competitive edge? 
   
 - **Take the opportunity to 'sell' yourself.**
@@ -33,23 +33,24 @@ We have compiled a couple of tips and resources that should help you do the best
   However, the interview is an opportunity for you to 'sell' yourself to them - listen out for and don't forget to pick up on any opportunities the interviewer(s) give you to talk about your achievements/experience.
   Don't worry about repeatedly mentioning the same projects, as long as you are able to talk about an aspect of those projects you have not mentioned yet (eg. a specific technical challenge that you had to overcome).
 
-- **Don't lie about your experience.**
-  Do not ever claim to know things you don't, or to embellish the experience you do have with a certain technology or skillset.
+- **Be honest and straightforward about your experience.**
+  Do not claim to know things you don't, or to embellish the experience you do have with a certain technology or skillset.
   The person who will interview you will most likely be more experienced in the technologies they will ask you about than you are, and will almost certainly follow up with in-depth questions that you will not be able to answer if you don't know what you're talking about.
+  Better to say that you don’t know about something, but that you will find out, than to pretend that you do.
 
 - **Show that you are able to learn independently.**
-  If you don't know about how to answer a certain question, at least try to give the impression that you could find a solution quickly, and how you would go about that.
+  If you don't know how to answer a certain question, at least try to give the impression that you could find a solution quickly, and how you would go about that.
   For example, if you are asked an in-depth question about CSS, a perfectly valid answer would be "I'm not entirely sure about this, but I know that I can search the [Mozilla Developer Network documentation](https://developer.mozilla.org/), as it is the most up-to-date reference for everything regarding HTML, CSS, and JavaScript."
 
 - **Think about _why_ the interviewer is asking you the question they are asking.**
   What answer are they trying to get from you?
-  Try to put yourself in the interviewers shoes and imagine the sort of things you would want to know about someone you were hiring for that role.
+  Try to think of the sorts of things you would want to know about someone you were hiring for that role if you were the interviewer.
   Think about the qualities you would want to see in a successful applicant, and the answers you would want to hear.
 
 - **Take your time - don't rush your answers.**
   Slowing things down gives you more thinking time.
   It is better to take a couple of seconds to prepare what you want to say, and to say it confidently, than to immediately blurt out an answer.
-  It is very important to make sure you understand the question being asked - and, if you don't understand the question:
+  It is very important to make sure you understand the question being asked - and, if you don't understand the question, ask for clarification.
 
 - **Don't be afraid to ask for clarification.**
   If you aren't clear about the question being asked or the answer they want, ask for clarification.
@@ -103,7 +104,7 @@ The key points of the article are:
   - Don't assume what the interviewer finds interesting or not
 - Practice!
 
-Another useful technique for answering behvioural/competency questions is the [STAR Technique](http://web.mit.edu/career/www/guide/star.html).
+Another useful technique for answering behavioural / competency questions is the [STAR Technique](http://web.mit.edu/career/www/guide/star.html).
 
 - _Situation_ or _Task_: describe the situation or task you had to carry out,
 - _Action_: the thing that _you_ did to solve the problem (not the group you were working with but _you_!),
@@ -121,7 +122,6 @@ Some examples of questions you might hear:
 - What is garbage collection?
 - What is a hash function? Why would you need one?
 - What is HTTP?
-- etc.
 
 Be prepared for more in-depth questions about technologies you've mentioned as strong points!
 Some examples:
@@ -129,9 +129,8 @@ Some examples:
 - *web frontend*: Explain the rules for how CSS decides which elements should receive which
 styles.
 - *JavaScript*: What's the difference between Angular, React, Vue, etc. Why should we use these in the first place?
-- *databases*: What's different kinds of databases exist? (eg. key-value, relational, graph, time-series, geospatial, etc.) When would you use one over the other?
+- *databases*: What different kinds of databases exist? (eg. key-value, relational, graph, time-series, geospatial, etc.) When would you use one over the other?
 - *Java*: What is the difference between `private`, `public`, `protected`? What happens when you don't use any of those?
-- etc.
 
 You might be tempted to read through lecture notes to find answers to these questions - don't do this, it is almost certainly a waste of time.
 **With these questions, interviewers are looking to scope out the limits of your knowledge, rather than getting the kind of super-detailed, formal answers that you might find in lecture notes.**
@@ -179,7 +178,6 @@ There are also some other common algorithms you should know about, for example:
 - finding a cycle in a linked list
 - depth of a tree
 - is a given binary tree a binary search tree?
-- etc.
 
 To be able to talk about time complexity means you need to know how Big O notation works. Check out [this answer on Stack Overflow](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation) for lots of different ways of describing time complexity & Big O notation that should give you a strong intuition for the concept.
 
@@ -240,7 +238,7 @@ You should always keep some general things in mind:
 
 - **Always think out loud.**
   The aim of whiteboard coding exercises is not working code, but an insight into how you think and tackle problems.
-  Interviewer will often let you know if you're on the right track, or guide you along the problem.
+  Interviewers will often let you know if you're on the right track, or guide you along the problem.
   If you just keep quiet and don't manage to finish writing your algorithm, the interviewer will have learnt nothing about your ability to code. If you keep talking and explain your thinking, the interviewer might very well be convinced that you are capable of solving the problem, even if you did not manage to solve it on time.
 
 - **Never assume anything.**
@@ -265,7 +263,7 @@ You should always keep some general things in mind:
 
 Once you have really understood the question, and have described the algorithm you're going to implement, you can start coding.
 
-Remember that you can usually not look up anything during the interview. This means that you should know your language of choice's syntax and how to perform common operations, eg:
+Remember that usually you cannot look up anything during the interview. This means that you should know your language of choice's syntax and how to perform common operations, eg:
 
 - defining functions
 - accessing & updating elements of an array/string
@@ -290,7 +288,7 @@ There are plenty of sites where you can practise coding problems:
 ## Systems design / architecture
 
 In a lot of interviews, you will be asked to design an application given a very broad specification.
-The challenge is to come up with a reasonable architecture for the application that will fulfill the requirements you are given.
+The challenge is to come up with a reasonable architecture for the application that will fulfil the requirements you are given.
 
 For example:
 
@@ -317,7 +315,7 @@ There are a lot of possible follow-on questions from this kind of question, whic
 
 ## Don't panic!
 
-**Interviews are always extremely stressful.** If you are well-prepared, you should be able to confidently have your best go at it. Sometimes the most awful interviews are actually your most successful - it may just be the case that the interviewer was so impressed with your knowledge that they tried to catch you out. :)
+**Interviews are always extremely stressful.** If you are well-prepared, you should be able to confidently have your best go at it. Sometimes the interviews that feel the most stressful are actually your most successful - it may just be the case that the interviewer was so impressed with your knowledge that they tried to catch you out. :)
 
 Either way, if you feel like an interview has not gone well, just consider it a learning experience, and try again with the next one. In every interview you take, you will get a little bit better at talking about yourself and your achievements, and will know a little bit more about software engineering and computer science, until you manage to find your dream job.
 
