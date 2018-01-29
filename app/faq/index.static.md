@@ -27,7 +27,7 @@ To apply to HackCampus simply fill out [the application form]({{facts.applicatio
 
 ## What's the deadline?
 
-If you apply by the {{facts.applicationDeadline}}, you will be guaranteed to be included in the main batch of interviews. You will still be able to apply afterwards, but many of the places in the programme may already be taken.
+If you apply by the {{facts.applicationDeadline}}, you will be guaranteed to be considered for the main batch of interviews. You will still be able to apply afterwards, but many of the places in the programme may already be taken. Please note that you won't be guaranteed an interview, as it is up to the participating companies to choose which candidates they would like to interview.
 
 ## What happens once I've applied?
 
@@ -37,7 +37,7 @@ Please note that successfully completing the initial application does **not** me
 
 ## Will there be an interview?
 
-We suggest to companies to approach the hiring process for interns just like how they would hire full-time engineers, so you may have to complete a technical interview, code challenge, and/or a "culture fit" interview. This is completely up to the company, and every company has a different approach to hiring. If you have any concerns about what you will be required to know for the interviews, don't hesitate to reach out to us once you have applied.
+We suggest to companies to approach the hiring process for interns just like how they would hire full-time engineers, so you may have to complete a technical interview, code challenge, and/or a "culture fit" interview. This is completely up to the company, and every company has a different approach to hiring. If you have any concerns about what you will be required to know for the interviews, don't hesitate to reach out to us once you have applied. We offer an [interview guide](http://hackcampus.io/interview-guide) that covers some recommended topics to prepare, which should help you in any technical interview situation.
 
 ## When is the internship?
 
@@ -48,7 +48,7 @@ If these dates don't work for you, let us know once you have applied and we will
 ## Where will I live?
 
 As part of the programme, we offer free accommodation in student accommodation in central London. You will get a single room for yourself, with a shared kitchen & social space so you get to know the other interns. Most of the companies taking part in the programme have offices less than 20 minutes travel away from the accommodation.
-If you have alternate living arrangements (eg. if you already live in London), just let us know.
+If you have alternate living arrangements (eg. if you already live in London), please let us know as soon as possible, as we have to commit to a specific number of rooms several months before the internship begins.
 
 ## What kind of work will I be doing?
 

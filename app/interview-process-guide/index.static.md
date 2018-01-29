@@ -29,7 +29,9 @@ _options:
 
 - **Recommended Salary** -- Our recommended salary is £400 pw (payable directly to the intern).
 
-- **Accommodation** -- One of the benefits of the HackCampus programme is the central London accommodation provided to students for the duration of their internship. This provides them with the security of knowing that they will not need to try find accommodation themselves, and gives them the opportunity to build strong relationships by being a part of the HackCampus intern family. HackCampus will invoice you the equivalent of £250pw per intern in April.
+- **Accommodation** -- One of the benefits of the HackCampus programme is the central London accommodation provided to students for the duration of their internship. This provides them with the security of knowing that they will not need to try find accommodation themselves, and gives them the opportunity to build strong relationships by being a part of the HackCampus intern family.
+
+- **Fees** -- HackCampus will invoice you the equivalent of £250 pw per intern in April, which will cover accommodation fees and administrative costs.
 
 - **Dates** -- The HackCampus internship is for a 10 week period, commencing on 25th June and running till 1st September (last day of work is 31st August). However, if you wish to keep an intern on for longer and they are available to continue with you, or you wish to offer them a full time role following the internship, that would be amazing and just let us know.
 
