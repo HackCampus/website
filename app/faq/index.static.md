@@ -62,7 +62,7 @@ It is always up to the companies to decide which interns they want to give offer
 
 ## Will I get paid?
 
-Yes! Your weekly salary will be £{{facts.internSalary}}, on top of your free accommodation.
+Yes! Your weekly salary will be around £{{facts.internSalary}}, on top of your free accommodation. Please note that our salary figure is only a suggestion, and companies are free to choose the offer they end up giving you. If you are not happy with your offer, please let us know and we will try to help you to negotiate.
 
 ## I have a disability. What assistance can you offer me?
 
